@@ -1,0 +1,339 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*
+{
+  text-decoration: none;
+}
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800*/
+
+.manrope {
+    font-family: "Manrope", serif;
+    /*font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;*/
+  }
+  
+.body{
+    display: block;
+}
+.individuals{
+    margin: 30px 30px 30px 30px;
+}
+.individuals h2{
+    font-family: Manrope;
+    font-size: 32px;
+    margin-bottom: 20px ;
+}    
+.individuals p{
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:25px;
+    color: #737373;
+}
+.form{
+    align-content: center;
+    width: 327px;
+    margin: 0 auto 20px auto;
+    background-color: #ffffff;
+    padding: 20px 0 20px 0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.form p{
+    margin: 10px 20px 20px 20px;
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:25px;
+    text-align: center;
+}
+label,input,select {
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:25px;
+    border-radius: 2px;
+    margin: 16px;
+}
+input,select {
+    border: 1.5px solid #f0f0f0;
+}
+
+.firstname input[type='text']{
+    width: 290px;
+    height: 48px;
+    margin: 16px;
+}
+.lastname input[type='text']{
+    width: 290px;
+    height: 48px;
+    margin: 16px;
+}
+.gender select {
+    width: 297px;
+    height: 54px;
+    margin: 16px;
+}
+.dob input[type='date'] {
+    width: 295px;
+    height: 54px;
+    margin: 16px;
+}
+.weight input[type='text']{
+    width: 290px;
+    height: 48px;
+    margin: 16px;
+}
+.height input[type='text']{
+    width: 290px;
+    height: 48px;
+    margin: 16px;
+}
+.activity select {
+    width: 297px;
+    height: 54px;
+    margin: 16px;
+}
+.password input[type='password']{
+    width: 290px;
+    height: 48px;
+    margin: 16px;
+}
+button{
+    width: 295px;
+    height: 48px;
+    margin: 16px;
+    background-color: #2EC4B6;
+    border-radius: 2px ;
+    border: 2px;
+    font-family: Manrope;
+    font-size: 16px;
+    line-height:25px;
+}
+
+
+@media only screen and (min-width:1000px){
+    .body{
+        display: flex;
+    }
+    .individuals{
+        margin: 0 70px 0 120px;
+    }
+    .individuals h2{
+        padding-left:20px ;
+        font-family: Manrope;
+        font-size: 32px;
+    }    
+    .individuals p{
+        padding: 20px 20px 30px 20px;
+        font-family: Manrope;
+        font-size: 16px;
+        line-height:25px;
+        color: #737373;
+    }
+    .form{
+        width: 580px;
+        margin: 40px 120px 40px 20px ;
+        background-color: #ffffff;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .form p{
+        margin: 10px 40px 20px 40px;
+        font-family: Manrope;
+        font-size: 16px;
+        line-height:25px;
+        text-align: center;
+    }
+    label,input,select {
+        font-family: Manrope;
+        font-size: 16px;
+        line-height:25px;
+        border-radius: 2px;
+    }
+    input,select {
+        border: 1.5px solid #f0f0f0;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows:repeat(6, 1fr,  10px);
+        grid-template-areas:
+        "firstname  lastname"
+        "gender  dob"
+        "weight  height"
+        "activity  activity"
+        "password  password"
+        "button  button";
+    }
+    .firstname{
+        grid-area: firstname;
+        margin: 20px 12px 10px 40px;
+    }
+    .lastname{
+        grid-area: lastname;
+        margin: 20px 40px 10px 12px;
+    }
+    .gender{
+        grid-area: gender;
+        margin: 10px 12px 10px 40px;
+    }
+    .dob{
+        grid-area: dob;
+        margin: 10px 40px 10px 12px;
+    }
+    .weight{
+        grid-area: weight;
+        margin: 10px 12px 10px 40px;
+    }
+    .height{
+        grid-area: height;
+        margin: 10px 40px 10px 12px;
+    }
+    .activity{
+        grid-area: activity;
+        margin: 10px 40px 10px 40px;
+    }
+    .password{
+        grid-area: password;
+        margin: 10px 40px 10px 40px;
+    }
+    .button{
+        grid-area: button;
+        margin: 10px 40px 10px 40px;
+        
+    }
+    .firstname input[type='text']{
+        width: 182px;
+        height: 35px;
+    }
+    .lastname input[type='text']{
+        width: 180px;
+        height: 35px;
+    }
+    .gender select {
+        width: 190px;
+        height: 40px;
+    }
+    .dob input[type='date'] {
+        width: 183px;
+        height: 35px;
+    }
+    .weight input[type='text']{
+        width: 182px;
+        height: 35px;
+    }
+    .height input[type='text']{
+        width: 180px;
+        height: 35px;
+    }
+    .activity select {
+        width: 433px;
+        height: 40px;
+    }
+    .password input[type='password']{
+        width: 430px;
+        height: 35px;
+    }
+    button{
+        width: 435px;
+        height: 35px;
+        background-color: #2EC4B6;
+        border-radius: 2px ;
+        border: 2px;
+    }
+}
