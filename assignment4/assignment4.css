@@ -150,15 +150,17 @@ label,input,select {
 }
 input,select {
     border: 1.5px solid #f0f0f0;
+    background-color: #fff;
+    
 }
 
 .firstname input[type='text']{
-    width: 290px;
+    width: 285px;
     height: 48px;
     margin: 16px;
 }
 .lastname input[type='text']{
-    width: 290px;
+    width: 285px;
     height: 48px;
     margin: 16px;
 }
@@ -168,17 +170,18 @@ input,select {
     margin: 16px;
 }
 .dob input[type='date'] {
-    width: 295px;
+    width: 280px;
     height: 54px;
     margin: 16px;
+    
 }
 .weight input[type='text']{
-    width: 290px;
+    width: 285px;
     height: 48px;
     margin: 16px;
 }
 .height input[type='text']{
-    width: 290px;
+    width: 285px;
     height: 48px;
     margin: 16px;
 }
@@ -188,7 +191,7 @@ input,select {
     margin: 16px;
 }
 .password input[type='password']{
-    width: 290px;
+    width: 285px;
     height: 48px;
     margin: 16px;
 }
