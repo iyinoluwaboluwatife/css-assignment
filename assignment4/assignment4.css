@@ -155,12 +155,12 @@ input,select {
 }
 
 .firstname input[type='text']{
-    width: 285px;
+    width: 280px;
     height: 48px;
     margin: 16px;
 }
 .lastname input[type='text']{
-    width: 285px;
+    width: 280px;
     height: 48px;
     margin: 16px;
 }
@@ -176,12 +176,12 @@ input,select {
     
 }
 .weight input[type='text']{
-    width: 285px;
+    width: 280px;
     height: 48px;
     margin: 16px;
 }
 .height input[type='text']{
-    width: 285px;
+    width: 280px;
     height: 48px;
     margin: 16px;
 }
@@ -191,7 +191,7 @@ input,select {
     margin: 16px;
 }
 .password input[type='password']{
-    width: 285px;
+    width: 280px;
     height: 48px;
     margin: 16px;
 }
